@@ -1,0 +1,23 @@
+.box{
+    transform: translate(100px,100px);
+}
+
+.box:hover{
+    transform: translate(200px,200px);
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    /* transform: scale(3) */
+}
+
+.box2:hover{
+    /* transform: scale(7) */
+    transform: rotate(45deg);
+    transition-property: all;
+    transition-duration: 3s;
+    transition-delay: 0;
+    background-color: black;
+}

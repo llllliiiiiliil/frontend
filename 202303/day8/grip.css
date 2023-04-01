@@ -1,0 +1,33 @@
+.bigBox{
+    width: 1257px;
+    height: 937px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    background-color: black;
+    width: 420px;
+    height: 937px;
+}
+
+.box1{
+    background-color: blue;
+    width: 420px;
+    height: 937px;
+
+}
+
+@media screen and (max-width:768px) {
+
+    .bigBox{
+        width: auto;
+        justify-content: center;
+    }
+    .box{
+        display: none;
+    }
+
+
+    
+}

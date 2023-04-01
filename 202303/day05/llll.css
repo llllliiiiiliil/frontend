@@ -1,0 +1,38 @@
+.bigbox{
+    height: 1200px;
+    width: 1370px;
+    margin: 0px auto;
+
+}
+
+.box1{
+    display: inline-block;
+    background-color: red;
+    height: 258px;
+    width: 270px;
+    
+}
+
+.box2{
+    display: inline-block;
+    background-color: yellow;
+    height: 258px;
+    width: 270px;
+    
+}
+
+.box3{
+    display: inline-block;
+    background-color: green;
+    height: 258px;
+    width: 270px;
+    
+}
+
+.box4{
+    display: inline-block;
+    background-color: green;
+    height: 258px;
+    width: 270px;
+    
+}

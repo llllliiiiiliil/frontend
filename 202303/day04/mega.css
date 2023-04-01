@@ -1,0 +1,23 @@
+.coffee{
+    height: 400px;
+    width: 200px;
+
+}
+
+.red{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Juice{
+    font-size: larger;
+    border-bottom: 1px solid gray;
+    opacity: 0.7;
+}
+
+.layout{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+}

@@ -1,0 +1,59 @@
+.bigBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1348px;
+    height: 2871px;
+}
+
+.nameBox{
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+}
+
+.middleBox{
+    width: 1180px;
+    height: 469.47px;
+    border: 1px solid gainsboro;
+}
+
+.smallBox{
+    width: 100%;
+    height: 497;
+    
+}
+
+.iconBox{
+    width: 389px;
+    height: 220px;
+    flex: 2;
+}
+
+.imgBox{
+    display: flex;
+    flex: 1;
+    align-items: baseline;
+    flex: 1;
+}
+
+.icon{
+    margin-top: 67px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.short{
+    margin-top: 20px;
+
+}
+
+.long{
+    margin-top: 21px;
+    font-size: small;
+    padding: 20px;
+}
