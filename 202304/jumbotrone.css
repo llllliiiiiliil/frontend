@@ -1,0 +1,15 @@
+.jumbotrone{
+    height: 600px;
+    width: 100%;
+    display: inline-block;
+}
+
+.imgBOX{
+    width: 100%;
+}
+
+.imgBOX > img {
+    height: 650px;
+    width: 100%;
+    object-fit: cover;
+}

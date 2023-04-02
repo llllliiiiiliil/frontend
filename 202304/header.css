@@ -1,0 +1,48 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    list-style-type: none;
+}
+
+.name{
+    margin-left: 31px;
+    font-family: 'Cute Font', cursive;
+    font-size: 35px
+}
+
+.top-f{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+    font-family: 'Cute Font', cursive;
+    font-size: 22px;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3{
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+@media screen and (max-width:768px) {
+    .top-f{
+        display: none;
+    }
+    .hamburger{
+        display: inline-block;
+        margin-right: 10px;
+    }
+}
+

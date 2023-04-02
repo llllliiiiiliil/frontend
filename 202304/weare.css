@@ -1,0 +1,67 @@
+.weare{
+    display:flex ;
+    justify-content: space-around;
+}
+
+.explainBox{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 54px;
+}
+
+.weareBOX{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.iconBox{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.iconBox :hover{
+    transform: rotate(45deg);
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.large{
+    font-size: 32px;
+    color: rgb(92, 92, 209);
+}
+
+.iconname{
+    color: rgb(92, 92, 209);
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.iconexplain{
+    display: flex;
+    margin-top: 12px;
+    font-size: smaller;
+    width: 300px;
+    margin-left: 25px;
+}
+
+@media screen and (max-width:1024px) {
+    .explainBox{
+        display: flex;
+        flex-direction: column;
+    }
+    .weareBOX{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .iconexplain{
+        width: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+}
