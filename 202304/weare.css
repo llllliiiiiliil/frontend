@@ -17,6 +17,11 @@
     
 }
 
+.cafeExplain{
+    font-family: 'Cute Font', cursive;
+    font-size: 25px;
+}
+
 .iconBox{
     display: flex;
     align-items: center;
@@ -47,6 +52,8 @@
     font-size: smaller;
     width: 300px;
     margin-left: 25px;
+    font-family: 'Cute Font', cursive;
+    font-size: 19px;
 }
 
 @media screen and (max-width:1024px) {
@@ -63,5 +70,9 @@
         width: auto;
         display: flex;
         justify-content: space-around;
+    }
+
+    .color{
+        display: flex;
     }
 }

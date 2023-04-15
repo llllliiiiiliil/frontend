@@ -23,6 +23,10 @@ li{
     font-size: 22px;
 }
 
+.top-f :hover{
+    transform: scale(1.1);
+}
+
 .hamburger{
     display: none;
     cursor: pointer;
@@ -34,6 +38,12 @@ li{
     background-color: #333;
     margin: 6px 0;
     transition: 0.4s;
+}
+
+@media screen  and (max-width:1024px) {
+    .top{
+       display: flex; 
+    }
 }
 
 @media screen and (max-width:768px) {

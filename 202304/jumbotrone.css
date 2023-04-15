@@ -8,8 +8,17 @@
     width: 100%;
 }
 
+.color{
+    margin-right:200px ;
+    color: rgb(92, 92, 209);
+}
+
 .imgBOX > img {
     height: 650px;
     width: 100%;
     object-fit: cover;
+}
+
+.cafeExplain{
+    width: 500px;
 }

@@ -1,0 +1,40 @@
+.workBox{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows:auto auto;
+}
+
+
+.foodBox{
+    width: 457.5px;
+    height: 457.5px;  
+}
+
+.foodSize{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.foodBox :hover{
+    border: 2px solid rgb(83, 145, 240);
+}
+
+.work{
+    margin-left: 438px;
+    color: rgb(92, 92, 209);
+}
+
+@media screen and (max-width:1024px){
+    .workBox{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .workBox{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
